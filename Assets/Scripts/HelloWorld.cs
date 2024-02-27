@@ -18,7 +18,7 @@ public class HelloWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("Hello World Continue");
+        //print("Hello World Continue");
         transform.Translate(new Vector3(0, 0, 1) * Time.deltaTime * speed);
     }
 }
